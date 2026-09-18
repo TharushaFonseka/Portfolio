@@ -1,0 +1,9 @@
+# Ignore large video files exceeding GitHub 100MB limit
+*.mp4
+*.MOV
+*.mov
+*.avi
+*.mkv
+
+# Scratch / temp files
+scratch/
