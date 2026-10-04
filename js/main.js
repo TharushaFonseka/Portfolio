@@ -10,6 +10,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initSkillFilters();
   initProjectFilters();
   initProjectModals();
+  initFreelanceModal();
   initCVModal();
   initContactForm();
   initScrollAnimations();
@@ -433,6 +434,208 @@ const projectData = {
       "Brand style guide, apparel mockups, and promotional banners"
     ],
     tech: ["Adobe Photoshop", "Adobe Illustrator", "Canva", "Branding", "Typography"]
+  },
+  countdown: {
+    title: "CodeFest Countdown Series",
+    category: "Competition Work • SLIIT CodeFest 2026",
+    image: "assets/cf_designathon_3days.jpg",
+    isPoster: true,
+    posterBadge: "SLIIT CODEFEST 2026 // EVENT COUNTDOWN FLYERS",
+    gallery: [
+      {
+        src: "assets/cf_designathon_3days.jpg",
+        pill: "1. Designathon (3 Days)",
+        title: "Designathon — 3 Days More",
+        desc: "Opening flyer announcing 3 days remaining until the Designathon UI/UX Challenge at SLIIT CodeFest 2026."
+      },
+      {
+        src: "assets/cf_designathon_2days.jpg",
+        pill: "2. Designathon (2 Days)",
+        title: "Designathon — 2 Days More",
+        desc: "Second countdown flyer building anticipation with 2 days to go before the Designathon competition begins."
+      },
+      {
+        src: "assets/cf_designathon_today.jpg",
+        pill: "3. Designathon (Today)",
+        title: "Designathon — Happening Today!",
+        desc: "Final flyer announcing the Designathon is happening today — designed for maximum hype on launch day."
+      },
+      {
+        src: "assets/cf_netcom_3.png",
+        pill: "1. Netcom (3 Days)",
+        title: "Netcom — 3 Days More",
+        desc: "Cyber-themed countdown flyer announcing 3 days remaining until the Netcom Final Round at SLIIT CodeFest 2026.",
+        breakBefore: true
+      },
+      {
+        src: "assets/cf_netcom_1.jpg",
+        pill: "2. Netcom (2 Days)",
+        title: "Netcom — 2 Days More",
+        desc: "High-tech aesthetic flyer keeping the momentum going with 2 days left until the Netcom Final Round."
+      },
+      {
+        src: "assets/cf_netcom_2.jpg",
+        pill: "3. Netcom (1 Day)",
+        title: "Netcom — 1 Day More",
+        desc: "Final push countdown flyer announcing just 1 day remaining until the Netcom Final Round begins."
+      }
+    ],
+    description: "Designed a series of high-impact countdown flyers for the Designathon UI/UX Challenge and the Netcom Final Round held at SLIIT CodeFest 2026. Each flyer in the series counts down the days to the events, building excitement with bold typography, thematic aesthetics, and a cohesive design language.",
+    features: [
+      "Event: SLIIT CodeFest 2026",
+      "Venue: SLIIT Campus, Sri Lanka",
+      "Series: Designathon & Netcom Countdowns",
+      "Format: Social Media Campaign"
+    ],
+    tech: ["Adobe Photoshop", "Adobe Illustrator", "Typography", "Digital Marketing"]
+  },
+  cashBoards: {
+    title: "CodeFest Cash Board Designs",
+    category: "Competition Work • SLIIT CodeFest 2026",
+    image: "assets/cb_ai_innovation.jpg",
+    isPoster: true,
+    posterBadge: "SLIIT CODEFEST 2026 // CASH BOARD DESIGNS",
+    gallery: [
+      {
+        src: "assets/cb_ai_innovation.jpg",
+        pill: "1. AI Innovation",
+        title: "CodeFest 2026 — AI Innovation Award",
+        desc: "Cash board design for the AI Innovation category award, featuring a premium purple and gold aesthetic with an embossed medal."
+      },
+      {
+        src: "assets/cb_technopreneur.jpg",
+        pill: "2. Technopreneur",
+        title: "CodeFest 2026 — Technopreneur Award",
+        desc: "Cash board design for the Technopreneur category award, designed with a sleek blue technology theme and metallic gold elements."
+      }
+    ],
+    description: "Designed large-scale promotional cash boards for the SLIIT CodeFest 2026 awards ceremony. These designs feature striking color palettes and official sponsor branding, tailored specifically to highlight the prestige of the AI Innovation and Technopreneur categories.",
+    features: [
+      "Event: SLIIT CodeFest 2026",
+      "Venue: SLIIT Campus, Sri Lanka",
+      "Format: Large-scale print design",
+      "Sponsors: IFS, Innov8, Tiqri, BOC, Cisco"
+    ],
+    tech: ["Adobe Photoshop", "Adobe Illustrator", "Print Design", "Branding"]
+  },
+  tagDesigns: {
+    title: "CodeFest Media Crew ID Tags",
+    category: "Competition Work • SLIIT CodeFest 2026",
+    image: "assets/cf_tag_front.jpg?v=2",
+    isPoster: true,
+    posterBadge: "SLIIT CODEFEST 2026 // ID TAG DESIGNS",
+    gallery: [
+      {
+        src: "assets/cf_tag_front.jpg?v=2",
+        pill: "1. Tag Front",
+        title: "Media Crew ID Tag — Front",
+        desc: "Front design of the official Media Crew ID tag for SLIIT CodeFest 2026, featuring the event branding and an elegant dark pattern background."
+      },
+      {
+        src: "assets/cf_tag_back.jpg?v=2",
+        pill: "2. Tag Back",
+        title: "Media Crew ID Tag — Back",
+        desc: "Back design of the Media Crew ID tag featuring a striking custom line-art dragon illustration with vertical typography."
+      }
+    ],
+    description: "Designed the official Media Crew ID tags for the SLIIT CodeFest 2026 event. The goal was to create a highly recognizable, premium lanyard tag that sets the media team apart. The design pairs the formal event branding on the front with a highly stylized, creative dragon illustration on the back.",
+    features: [
+      "Event: SLIIT CodeFest 2026",
+      "Venue: SLIIT Campus, Sri Lanka",
+      "Role: Media Crew Identity",
+      "Format: Double-sided Print ID Tag"
+    ],
+    tech: ["Adobe Illustrator", "Vector Illustration", "Print Design", "Branding"]
+  },
+  logos: {
+    title: "Cake Crafts Brand Identity",
+    category: "Freelance Work • Cake Crafts in Japan",
+    image: "assets/logo_cakecraft_sign.jpg",
+    isPoster: true,
+    posterBadge: "BRANDING // CAKE CRAFTS IN JAPAN",
+    gallery: [
+      {
+        src: "assets/logo_cakecraft_sign.jpg",
+        pill: "1. Storefront Sign",
+        title: "Cake Crafts — Storefront Sign Mockup",
+        desc: "A photorealistic mockup demonstrating the brand identity as a round hanging storefront sign, enhancing the bakery's physical presence."
+      },
+      {
+        src: "assets/logo_cakecraft_flat.jpg",
+        pill: "2. Vector Logo",
+        title: "Cake Crafts — Vector Logo Illustration",
+        desc: "The core brand illustration featuring a stylized character holding a layered cake, designed with soft, inviting colors appropriate for a bakery."
+      }
+    ],
+    description: "Developed the brand identity and logo illustration for 'Cake Crafts in Japan'. The design features a beautifully illustrated, faceless character presenting an ornate cake, surrounded by welcoming, hand-drawn typography. The aesthetic balances warmth and professionalism, perfect for an artisanal bakery or cake crafting business.",
+    features: [
+      "Client: Cake Crafts in Japan",
+      "Industry: Artisanal Bakery",
+      "Style: Soft Color Palette, Character Illustration",
+      "Deliverables: Vector Logo, Signage Mockup"
+    ],
+    tech: ["Adobe Illustrator", "Vector Illustration", "Typography", "Brand Identity"]
+  },
+  businessCards: {
+    title: "Personal Branding — Business Cards",
+    category: "Freelance Work • Identity Design",
+    image: "assets/bc_personal_front.jpg",
+    isPoster: true,
+    posterBadge: "IDENTITY // PERSONAL BUSINESS CARDS",
+    gallery: [
+      {
+        src: "assets/bc_personal_front.jpg",
+        pill: "1. Card Front",
+        title: "Personal Business Card — Front",
+        desc: "Front design of my personal graphic design business card, featuring vibrant liquid color splashes and modern typography against a dark background."
+      },
+      {
+        src: "assets/bc_personal_layout.jpg",
+        pill: "2. Full Layout",
+        title: "Personal Business Card — Front & Back",
+        desc: "Full layout of the business card showing both the colorful front details and the clean, logo-focused back design."
+      }
+    ],
+    description: "Designed a set of high-impact personal business cards to represent my brand as a Graphic Designer. The cards utilize a striking contrast between a sleek charcoal background and vivid, colorful liquid splash elements. This contrast emphasizes creativity, energy, and a modern design approach while maintaining clear readability for contact information.",
+    features: [
+      "Role: Graphic Designer",
+      "Style: Vibrant Splash Art, Dark Theme",
+      "Typography: Clean, Modern Sans-Serif",
+      "Format: Double-sided Print Ready"
+    ],
+    tech: ["Adobe Photoshop", "Adobe Illustrator", "Print Design", "Identity Design"]
+  },
+  sketches: {
+    title: "Colour Drawings & B&W Sketches",
+    category: "Featured Work • Traditional Art",
+    image: "assets/sketches_cover.jpg",
+    isPoster: true,
+    posterBadge: "TRADITIONAL ART // SKETCHES",
+    gallery: [
+      { src: "assets/sketch_1.jpeg", pill: "1", title: "Traditional Art — Sketch 1", desc: "Detailed traditional drawing showcasing technique, line art, and shading." },
+      { src: "assets/sketch_2.jpeg", pill: "2", title: "Traditional Art — Sketch 2", desc: "Detailed traditional drawing showcasing technique, line art, and shading." },
+      { src: "assets/sketch_3.jpeg", pill: "3", title: "Traditional Art — Sketch 3", desc: "Detailed traditional drawing showcasing technique, line art, and shading." },
+      { src: "assets/sketch_4.jpeg", pill: "4", title: "Traditional Art — Sketch 4", desc: "Detailed traditional drawing showcasing technique, line art, and shading." },
+      { src: "assets/sketch_5.jpeg", pill: "5", title: "Traditional Art — Sketch 5", desc: "Detailed traditional drawing showcasing technique, line art, and shading." },
+      { src: "assets/sketch_6.jpeg", pill: "6", title: "Traditional Art — Sketch 6", desc: "Detailed traditional drawing showcasing technique, line art, and shading." },
+      { src: "assets/sketch_7.jpeg", pill: "7", title: "Traditional Art — Sketch 7", desc: "Detailed traditional drawing showcasing technique, line art, and shading." },
+      { src: "assets/sketch_8.jpeg", pill: "8", title: "Traditional Art — Sketch 8", desc: "Detailed traditional drawing showcasing technique, line art, and shading." },
+      { src: "assets/sketch_9.jpeg", pill: "9", title: "Traditional Art — Sketch 9", desc: "Detailed traditional drawing showcasing technique, line art, and shading." },
+      { src: "assets/sketch_10.jpeg", pill: "10", title: "Traditional Art — Sketch 10", desc: "Detailed traditional drawing showcasing technique, line art, and shading." },
+      { src: "assets/sketch_11.jpeg", pill: "11", title: "Traditional Art — Sketch 11", desc: "Detailed traditional drawing showcasing technique, line art, and shading." },
+      { src: "assets/sketch_12.jpeg", pill: "12", title: "Traditional Art — Sketch 12", desc: "Detailed traditional drawing showcasing technique, line art, and shading." },
+      { src: "assets/sketch_13.jpeg", pill: "13", title: "Traditional Art — Sketch 13", desc: "Detailed traditional drawing showcasing technique, line art, and shading." },
+      { src: "assets/sketch_14.jpeg", pill: "14", title: "Traditional Art — Sketch 14", desc: "Detailed traditional drawing showcasing technique, line art, and shading." },
+      { src: "assets/sketch_15.PNG", pill: "15", title: "Traditional Art — Sketch 15", desc: "Detailed traditional drawing showcasing technique, line art, and shading." }
+    ],
+    description: "A comprehensive collection of my traditional artwork, ranging from vibrant full-color drawings to highly detailed black-and-white sketches. These pieces demonstrate a strong foundation in shading, proportion, line art, and creative expression, serving as a solid foundation for my digital graphic design work.",
+    features: [
+      "Mediums: Pencil, Ink, Colored Pencils",
+      "Styles: Realism, Stylized Art, Concept Sketches",
+      "Format: Physical Media",
+      "Focus: Line Art, Shading, and Composition"
+    ],
+    tech: ["Traditional Media", "Pencil & Ink", "Illustration", "Sketching"]
   }
 };
 
@@ -454,7 +657,7 @@ function initProjectModals() {
     }
   }
 
-  function startGalleryAutoPlay(gallery, updateFn, interval = 2800) {
+  function startGalleryAutoPlay(gallery, updateFn, interval = 1500) {
     stopGalleryAutoPlay();
     if (!gallery || gallery.length <= 1) return;
     galleryAutoPlayTimer = setInterval(() => {
@@ -463,46 +666,54 @@ function initProjectModals() {
     }, interval);
   }
 
-  projectBtns.forEach(btn => {
-    btn.addEventListener('click', (e) => {
-      e.preventDefault();
-      stopGalleryAutoPlay();
-      const projectKey = btn.dataset.project;
-      const data = projectData[projectKey];
-      if (!data) return;
+  window.openProjectModal = function(projectKey) {
+    stopGalleryAutoPlay();
+    const data = projectData[projectKey];
+    if (!data) return;
 
-      document.getElementById('modal-project-title').textContent = data.title;
-      document.getElementById('modal-project-cat').textContent = data.category;
-      document.getElementById('modal-project-desc').textContent = data.description;
+    document.getElementById('modal-project-title').textContent = data.title;
+    document.getElementById('modal-project-cat').textContent = data.category;
+    document.getElementById('modal-project-desc').textContent = data.description;
 
-      const featuresList = document.getElementById('modal-project-features');
-      featuresList.innerHTML = data.features.map(f => `<li>${f}</li>`).join('');
+    const featuresList = document.getElementById('modal-project-features');
+    featuresList.innerHTML = data.features.map(f => `<li>${f}</li>`).join('');
 
-      const techContainer = document.getElementById('modal-project-tech');
-      techContainer.innerHTML = data.tech.map(t => `<span class="tech-pill">${t}</span>`).join('');
+    const techContainer = document.getElementById('modal-project-tech');
+    techContainer.innerHTML = data.tech.map(t => `<span class="tech-pill">${t}</span>`).join('');
 
-      if (data.video) {
-        renderVideoShowcase(data);
-      } else if (data.gallery && data.gallery.length > 0) {
-        currentGalleryIndex = 0;
-        if (data.isVR) {
-          renderVRGallery(data.gallery, currentGalleryIndex);
-        } else if (data.isPoster) {
-          renderPosterGallery(data.gallery, currentGalleryIndex);
-        } else {
-          renderPhoneGallery(data.gallery, currentGalleryIndex);
-        }
+    if (data.video) {
+      renderVideoShowcase(data);
+    } else if (data.gallery && data.gallery.length > 0) {
+      currentGalleryIndex = 0;
+      if (data.isVR) {
+        renderVRGallery(data.gallery, currentGalleryIndex);
+      } else if (data.isPoster) {
+        renderPosterGallery(data, currentGalleryIndex);
       } else {
-        mediaContainer.innerHTML = `<img id="modal-project-img" src="${data.image}" alt="${data.title}" class="modal-image">`;
+        renderPhoneGallery(data.gallery, currentGalleryIndex);
       }
+    } else {
+      mediaContainer.innerHTML = `<img id="modal-project-img" src="${data.image}" alt="${data.title}" class="modal-image">`;
+    }
 
-      modalOverlay.classList.add('active');
-      document.body.style.overflow = 'hidden';
+    modalOverlay.classList.add('active');
+    document.body.style.overflow = 'hidden';
 
-      const colLeft = modalOverlay.querySelector('.modal-col-left');
-      const colRight = modalOverlay.querySelector('.modal-col-right');
-      if (colLeft) colLeft.scrollTop = 0;
-      if (colRight) colRight.scrollTop = 0;
+    const colLeft = modalOverlay.querySelector('.modal-col-left');
+    const colRight = modalOverlay.querySelector('.modal-col-right');
+    if (colLeft) colLeft.scrollTop = 0;
+    if (colRight) colRight.scrollTop = 0;
+  };
+
+  const projectCards = document.querySelectorAll('.project-card');
+  projectCards.forEach(card => {
+    card.style.cursor = 'pointer';
+    card.addEventListener('click', (e) => {
+      e.preventDefault();
+      const btn = card.querySelector('.project-btn');
+      if (btn && btn.dataset.project) {
+        window.openProjectModal(btn.dataset.project);
+      }
     });
   });
 
@@ -795,11 +1006,14 @@ function initProjectModals() {
     });
   }
 
-  function renderPosterGallery(gallery, activeIdx) {
+  function renderPosterGallery(data, activeIdx) {
+    const gallery = data.gallery;
     const activeItem = gallery[activeIdx];
-    const pillsHtml = gallery.map((item, idx) => 
-      `<button class="gallery-pill ${idx === activeIdx ? 'active' : ''}" data-index="${idx}">${item.pill}</button>`
-    ).join('');
+    const pillsHtml = gallery.map((item, idx) => {
+      const btn = `<button class="gallery-pill ${idx === activeIdx ? 'active' : ''}" data-index="${idx}">${item.pill}</button>`;
+      return item.breakBefore ? `<div style="flex-basis: 100%; height: 0;"></div>${btn}` : btn;
+    }).join('');
+    const badgeText = data.posterBadge || "JONTY AW24 // STREETWEAR POSTER ARTWORK";
 
     mediaContainer.innerHTML = `
       <div class="poster-gallery-wrapper">
@@ -807,7 +1021,7 @@ function initProjectModals() {
 
         <div class="poster-showcase-frame">
           <div class="poster-frame-header">
-            <span class="poster-badge"><i class="fas fa-palette" style="color: var(--accent-lime);"></i> JONTY AW24 // STREETWEAR POSTER ARTWORK</span>
+            <span class="poster-badge"><i class="fas fa-palette" style="color: var(--accent-lime);"></i> ${badgeText}</span>
             <span class="poster-counter" id="poster-counter-target">${activeIdx + 1} / ${gallery.length}</span>
           </div>
 
@@ -909,6 +1123,213 @@ function initProjectModals() {
     videos.forEach(v => { v.pause(); v.currentTime = 0; });
   }
 }
+
+/* --- Freelance Modal — Two-Screen Navigation --- */
+function initFreelanceModal() {
+  const overlay    = document.getElementById('freelance-modal');
+  const closeBtn   = document.getElementById('freelance-modal-close');
+  const openBtn    = document.getElementById('open-freelance-modal');
+  const backBtn    = document.getElementById('freelance-back-btn');
+  const screenGrid = document.getElementById('freelance-screen-grid');
+  const screenDetail = document.getElementById('freelance-screen-detail');
+  const catCards   = document.querySelectorAll('.freelance-cat-card');
+
+  // Header dynamic elements
+  const modalTag      = document.getElementById('freelance-modal-tag');
+  const modalTitle    = document.getElementById('freelance-modal-title');
+  const modalSubtitle = document.getElementById('freelance-modal-subtitle');
+
+  const categoryMeta = {
+    'countdown-flyers': { tag: '// COUNTDOWN FLYERS', title: 'Designathon Countdown Series', subtitle: 'SLIIT CodeFest 2026 — UI/UX Design Challenge' },
+    'cash-boards':      { tag: '// CASH BOARDS',      title: 'Cash Board Designs',           subtitle: 'Retail promotion & pricing display graphics' },
+    'tag-designs':      { tag: '// TAG DESIGNS',       title: 'Tag Designs',                  subtitle: 'Product tags, labels & price tag graphics' },
+    'logos':            { tag: '// LOGOS',             title: 'Logo Designs',                 subtitle: 'Brand identity & visual mark creations' },
+    'business-cards':   { tag: '// BUSINESS CARDS',   title: 'Business Card Designs',        subtitle: 'Print-ready professional card layouts' },
+  };
+
+  if (!overlay) return;
+
+  function showScreen1() {
+    screenGrid.style.display = 'block';
+    screenDetail.style.display = 'none';
+    backBtn.style.display = 'none';
+    if (modalTag)      modalTag.textContent      = '// FREELANCE WORK';
+    if (modalTitle)    modalTitle.textContent     = 'Freelance Design Projects';
+    if (modalSubtitle) modalSubtitle.textContent  = 'Choose a category to explore the work';
+    // Hide all detail panels
+    document.querySelectorAll('.freelance-detail-panel').forEach(p => p.style.display = 'none');
+  }
+
+  function showScreen2(subcat) {
+    if (subcat === 'countdown-flyers') {
+      // Close this modal and open the full screen project modal
+      closeModal();
+      if (window.openProjectModal) {
+        window.openProjectModal('countdown');
+      }
+      return;
+    }
+    if (subcat === 'cash-boards') {
+      // Close this modal and open the full screen project modal
+      closeModal();
+      if (window.openProjectModal) {
+        window.openProjectModal('cashBoards');
+      }
+      return;
+    }
+    if (subcat === 'tag-designs') {
+      // Close this modal and open the full screen project modal
+      closeModal();
+      if (window.openProjectModal) {
+        window.openProjectModal('tagDesigns');
+      }
+      return;
+    }
+    if (subcat === 'logos') {
+      // Close this modal and open the full screen project modal
+      closeModal();
+      if (window.openProjectModal) {
+        window.openProjectModal('logos');
+      }
+      return;
+    }
+    if (subcat === 'business-cards') {
+      // Close this modal and open the full screen project modal
+      closeModal();
+      if (window.openProjectModal) {
+        window.openProjectModal('businessCards');
+      }
+      return;
+    }
+
+    const meta = categoryMeta[subcat] || {};
+    screenGrid.style.display = 'none';
+    screenDetail.style.display = 'block';
+    backBtn.style.display = 'inline-flex';
+
+    if (modalTag)      modalTag.textContent      = meta.tag      || '// FREELANCE WORK';
+    if (modalTitle)    modalTitle.textContent     = meta.title    || 'Freelance Project';
+    if (modalSubtitle) modalSubtitle.textContent  = meta.subtitle || '';
+
+    // Hide all, show target
+    document.querySelectorAll('.freelance-detail-panel').forEach(p => p.style.display = 'none');
+    const panel = document.getElementById('detail-' + subcat);
+    if (panel) {
+      panel.style.opacity = '0';
+      panel.style.display = 'block';
+      requestAnimationFrame(() => {
+        panel.style.transition = 'opacity 0.3s ease';
+        panel.style.opacity = '1';
+      });
+    }
+  }
+
+  function openModal() {
+    overlay.classList.add('active');
+    document.body.style.overflow = 'hidden';
+    showScreen1();
+  }
+
+  function closeModal() {
+    overlay.classList.remove('active');
+    document.body.style.overflow = 'auto';
+    setTimeout(showScreen1, 350); // reset after close animation
+  }
+
+  if (openBtn)  openBtn.addEventListener('click', openModal);
+  if (closeBtn) closeBtn.addEventListener('click', closeModal);
+  if (backBtn)  backBtn.addEventListener('click', showScreen1);
+
+  overlay.addEventListener('click', (e) => {
+    if (e.target === overlay) closeModal();
+  });
+
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && overlay.classList.contains('active')) closeModal();
+  });
+
+  catCards.forEach(card => {
+    card.addEventListener('click', () => {
+      showScreen2(card.dataset.subcat);
+    });
+  });
+}
+
+/* --- Countdown Flyers Gallery Logic --- */
+function initCountdownFlyers() {
+  const flyers = [
+    {
+      src: 'assets/cf_designathon_3days.jpg',
+      title: 'Designathon — 3 Days More',
+      desc: 'Opening flyer announcing 3 days remaining until the Designathon UI/UX Challenge at SLIIT CodeFest 2026.'
+    },
+    {
+      src: 'assets/cf_designathon_2days.jpg',
+      title: 'Designathon — 2 Days More',
+      desc: 'Second countdown flyer building anticipation with 2 days to go before the Designathon competition begins.'
+    },
+    {
+      src: 'assets/cf_designathon_today.jpg',
+      title: 'Designathon — Happening Today!',
+      desc: 'Final flyer announcing the Designathon is happening today — designed for maximum hype on launch day.'
+    }
+  ];
+
+  let currentIdx = 0;
+
+  const posterImg    = document.getElementById('cf-poster-img');
+  const captionTitle = document.getElementById('cf-caption-title');
+  const captionDesc  = document.getElementById('cf-caption-desc');
+  const counter      = document.getElementById('cf-counter');
+
+  if (!posterImg) return;
+
+  // Reset to first flyer
+  currentIdx = 0;
+  posterImg.src = flyers[0].src;
+  if (counter) counter.textContent = `1 / ${flyers.length}`;
+  if (captionTitle) captionTitle.innerHTML = `<i class="fas fa-clock" style="color:var(--accent-lime)"></i> ${flyers[0].title}`;
+  if (captionDesc) captionDesc.textContent = flyers[0].desc;
+
+  function goTo(idx) {
+    currentIdx = (idx + flyers.length) % flyers.length;
+    const f = flyers[currentIdx];
+
+    posterImg.style.opacity = '0';
+    posterImg.style.transform = 'scale(0.97)';
+    setTimeout(() => {
+      posterImg.src = f.src;
+      posterImg.alt = f.title;
+      posterImg.style.opacity = '1';
+      posterImg.style.transform = 'scale(1)';
+    }, 160);
+
+    if (captionTitle) captionTitle.innerHTML = `<i class="fas fa-clock" style="color:var(--accent-lime)"></i> ${f.title}`;
+    if (captionDesc)  captionDesc.textContent = f.desc;
+    if (counter)      counter.textContent = `${currentIdx + 1} / ${flyers.length}`;
+
+    document.querySelectorAll('.cf-thumb').forEach((btn, i) => {
+      btn.classList.toggle('active', i === currentIdx);
+    });
+  }
+
+  // Clone to remove stale listeners
+  ['cf-prev', 'cf-next'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) {
+      const clone = el.cloneNode(true);
+      el.parentNode.replaceChild(clone, el);
+      clone.addEventListener('click', () => goTo(id === 'cf-prev' ? currentIdx - 1 : currentIdx + 1));
+    }
+  });
+
+  document.querySelectorAll('.cf-thumb').forEach((btn, i) => {
+    const clone = btn.cloneNode(true);
+    btn.parentNode.replaceChild(clone, btn);
+    clone.addEventListener('click', () => goTo(i));
+  });
+}
+
 
 /* --- CV Modal Viewer --- */
 function initCVModal() {
